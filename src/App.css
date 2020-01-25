@@ -226,10 +226,9 @@ html{
 
 .button{
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	overflow: hidden;
-	left: 35%;
-	top: 40%;
+  top: -180px; 
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -237,10 +236,9 @@ html{
 
 .button:nth-child(1){
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	overflow: hidden;
-	left: 35%; 
-	top: 60%;
+	top: -220px;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -249,10 +247,9 @@ html{
   
 .button:nth-child(2){
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	overflow: hidden;
-	left: 35%; 
-	top: 80%;
+	top: -200px;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -297,7 +294,7 @@ html{
   position: absolute;
   bottom: -10px;
   font: sans-serif;
-  font-size: 2.9em;
+  font-size: 2.5em;
   color:#444;
 }
 

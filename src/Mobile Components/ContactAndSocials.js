@@ -7,7 +7,7 @@ export default function ContactAndSocials() {
     return (
         <div className="section">
             <div className="fixed">
-                <h1>Contact me and checkout my socials!</h1> <br/><br/><br/><br/>
+                <h1>Contact me or checkout my socials!</h1> <br/><br/><br/><br/>
                 <div>
                     <button className="button">
                         <a href={"https://www.linkedin.com/in/faris-aziz-9a2a1499"}> 
