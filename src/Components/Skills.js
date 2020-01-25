@@ -6,7 +6,7 @@ export default function Skills() {
         <>
             <div className="section">
                 <div className="fixed">
-                    <h1>My skills, including, but not limited to</h1>
+                    <h1>My skills include, but are not limited to</h1>
                     <h3>Working with: </h3>
                     <p>- Version Control (Git) </p>
                     <p>- Ruby on Rails</p>
