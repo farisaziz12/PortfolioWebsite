@@ -204,6 +204,31 @@ header {
   height: 10px;
   background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
 }
+
+
+@media (max-width: 500px) {
+  body {
+    background: #222;
+    font-family: 'Sintony', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  
+  .section {
+    text-align: center;
+    line-height: 40px;
+    line-height: 40px;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    letter-spacing: 4px;
+    overflow: hidden;
+    clip: rect(0, auto, auto, 0);
+  }
+}
 /* Background end */
 
 
@@ -228,7 +253,7 @@ html{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-  top: -180px; 
+  top: 10px; 
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -238,7 +263,7 @@ html{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	top: -220px;
+	top: -210px;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -249,7 +274,7 @@ html{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	top: -200px;
+	top: -100px;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -301,6 +326,41 @@ html{
 a{
   color:inherit;
   text-decoration: none;
+}
+
+@media (max-width: 500px) {
+
+  .button{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    top: -100px; 
+    width: 200px;
+    perspective:400px;
+    background-color: transparent;
+  }
+  
+  .button:nth-child(1){
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    top: -145px;
+    width: 200px;
+    perspective:400px;
+    background-color: transparent;
+  }
+    
+    
+  .button:nth-child(2){
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    top: -122px;
+    width: 200px;
+    perspective:400px;
+    background-color: transparent;
+  }
+ 
 }
 
 
