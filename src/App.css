@@ -93,11 +93,12 @@ header {
 
 .section:nth-child(2) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #c2850a;
+  background-image: linear-gradient(to right, rgb(73, 177, 118), #20BDFF, #5433FF);
   color: #fff;
   top: 100vh;
   z-index: 2;
 }
+
 .section:nth-child(2) .fixed {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -105,7 +106,7 @@ header {
 
 .section:nth-child(3) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #0a0ac2;
+  background-image: linear-gradient(to left, #0f2027, #203a43, #2c5364);
   color: #fff;
   top: 200vh;
   z-index: 3;
@@ -117,7 +118,7 @@ header {
 
 .section:nth-child(4) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #85c20a;
+  background-image: linear-gradient(to left, #b92b27, #1565c0);
   color: #fff;
   top: 300vh;
   z-index: 4;
@@ -129,7 +130,7 @@ header {
 
 .section:nth-child(5) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #850ac2;
+  background-image: linear-gradient(to left, #ad5389, #3c1053);
   color: #fff;
   top: 400vh;
   z-index: 5;
@@ -141,12 +142,12 @@ header {
 
 .section:nth-child(6) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #0ac20a;
+  background-image: linear-gradient(to left, #a8c0ff, #3f2b96);
   color: #fff;
   top: 500vh;
   z-index: 6;
 }
-.section:nth-child(6) .fixed {
+.section:nth-child(6) .fixed { 
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -251,9 +252,10 @@ html{
 
 .button{
 	display: inline-block;
-	position: relative;
+	position: absolute;
 	overflow: hidden;
-  top: 10px; 
+  top: 440px; 
+  left: 36% ;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -263,7 +265,8 @@ html{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	top: -210px;
+  top: -263px;
+  left: 13.8%;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -274,7 +277,8 @@ html{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	top: -100px;
+  top: -180px;
+  left: -14%;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -294,7 +298,6 @@ html{
 	color: white;
   width: 100%;
   height: 50px;
-
 }
 .button span:after{
 	display: block;
@@ -365,3 +368,7 @@ a{
 
 
 /* Socials Btn end */
+
+.contact-div {
+  margin-top: 40%;
+}
