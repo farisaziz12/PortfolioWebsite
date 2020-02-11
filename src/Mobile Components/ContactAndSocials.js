@@ -24,9 +24,9 @@ export default function ContactAndSocials() {
                             <span className="respect" data-title="Click Me!">GitHub</span>
                         </a>
                     </button>
-                </div>
             
 
+                </div>
             </div>
         </div>
     )
