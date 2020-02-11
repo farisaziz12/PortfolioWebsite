@@ -337,7 +337,8 @@ a{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    top: -100px; 
+    top: -30px; 
+    left: 10px;
     width: 200px;
     perspective:400px;
     background-color: transparent;
@@ -347,7 +348,8 @@ a{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    top: -145px;
+    top: -2px;
+    left: 9px;
     width: 200px;
     perspective:400px;
     background-color: transparent;
@@ -359,6 +361,7 @@ a{
     position: relative;
     overflow: hidden;
     top: -122px;
+    left: 10px;
     width: 200px;
     perspective:400px;
     background-color: transparent;
