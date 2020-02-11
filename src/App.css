@@ -254,8 +254,8 @@ html{
 	display: inline-block;
 	position: absolute;
 	overflow: hidden;
-  top: 440px; 
-  left: 36% ;
+  top: 240px; 
+  left: 33% ;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -266,7 +266,7 @@ html{
 	position: relative;
 	overflow: hidden;
   top: -263px;
-  left: 13.8%;
+  left: 13%;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -278,7 +278,7 @@ html{
 	position: relative;
 	overflow: hidden;
   top: -180px;
-  left: -14%;
+  left: -17%;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
