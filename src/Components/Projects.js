@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import { Grid } from 'semantic-ui-react'
+import './Projects.css'
+import WODSHARE from './ProjectComponents/WODSHARE'
+import DIGIDAVE from './ProjectComponents/DIGIDAVE';
+import SELLO from './ProjectComponents/SELLO';
+import NUTRITRACKER from './ProjectComponents/NUTRITRACKER';
+
 
 class Projects extends Component {
     state = {  }
@@ -8,31 +13,10 @@ class Projects extends Component {
             <div className="section">
             <div className="fixed">
                 <h1>Projects</h1>
-                <Grid columns={3} divided>
-                    <Grid.Row>
-                    <Grid.Column>
-                        1
-                    </Grid.Column>
-                    <Grid.Column>
-                        2
-                    </Grid.Column>
-                    <Grid.Column>
-                        3
-                    </Grid.Column>
-                    </Grid.Row>
-
-                    <Grid.Row>
-                    <Grid.Column>
-                        4
-                    </Grid.Column>
-                    <Grid.Column>
-                        5
-                    </Grid.Column>
-                    <Grid.Column>
-                        6
-                    </Grid.Column>
-                    </Grid.Row>
-                </Grid>
+                <WODSHARE/>
+                <DIGIDAVE/>
+                <SELLO/>
+                <NUTRITRACKER/>
             </div>
         </div>
         );
@@ -40,3 +24,19 @@ class Projects extends Component {
 }
 
 export default Projects;
+            //     <Grid columns={4} divided>
+            //         <Grid.Row>
+            //         <Grid.Column>
+            //             <h3>WODSHARE</h3>
+            //         </Grid.Column>
+            //         <Grid.Column>
+            //             <h3>DigiDave</h3>
+            //         </Grid.Column>
+            //         <Grid.Column>
+            //             <h3>Sello</h3>
+            //         </Grid.Column>
+            //         <Grid.Column>
+            //             <h3>Nutri-Tracker</h3>
+            //         </Grid.Column>
+            //         </Grid.Row>
+            // </Grid>

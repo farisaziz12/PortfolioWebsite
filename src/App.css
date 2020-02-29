@@ -265,8 +265,8 @@ html{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-  top: -263px;
-  left: 13%;
+  top: -253px;
+  left: 12%;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -375,3 +375,45 @@ a{
 .contact-div {
   margin-top: 40%;
 }
+
+
+/* cf button */
+
+.toggleBtn{
+  background-color: #aaa;
+  border: #aaa;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  line-height: 100%;
+  padding: 0.8em 1.2em;
+  border-radius: 25px;
+  margin: 20px 0;
+}
+.toggleBtn:hover {
+  animation: swing 1s ease;
+  animation-iteration-count: 1;
+  }
+  @keyframes swing {
+  15% {
+  transform: translateY(5px);
+  }
+  30% {
+  transform: translateY(-5px);
+  }
+  50% {
+  transform: translateY(3px);
+  }
+  65% {
+  transform: translateY(-3px);
+  }
+  80% {
+  transform: translateY(2px);
+  }
+  100% {
+  transform: translateY(0);
+  }
+
+}
+
+/* cf button end */

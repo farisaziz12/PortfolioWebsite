@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
 import Header from './Components/Header';
-import Body from './Components/Body';
+import SEBody from './Components/SEBody';
 import { Router, Route, Link, Switch } from 'react-router-dom'
+import CFBody from './Components/CFBody';
+
 
 class App extends React.Component{
   state = {
-    width: window.innerWidth
+    width: window.innerWidth, 
+    portfolioType: "SE"
   }
 
   componentWillMount() {
@@ -21,6 +24,10 @@ class App extends React.Component{
     this.setState({ width: window.innerWidth });
   };
 
+  toggleContent = () => {
+    this.setState({portfolioType: this.state.portfolioType === "SE"? "CF" : "SE"})
+  }
+
 
   render() {
     const { width } = this.state;
@@ -29,12 +36,20 @@ class App extends React.Component{
     // if (isMobile) {
       return (
         <>
-          {/* <Router> 
-            <Switch> */}
-              <Header/>
-              <Body/> 
-            {/* </Switch>
-          </Router> */}
+            {/* <Switch>  */}
+              {/* <Route exact path='/'>  */}
+                <Header type={this.state.portfolioType} toggleContent={this.toggleContent}/>
+                {this.state.portfolioType === "SE"&&
+                  <SEBody/>
+                }
+                {this.state.portfolioType === "CF"&&
+                  <CFBody/>
+                }
+              {/* </Route>  */}
+              {/* <Route exact path='/cf'> 
+                
+              </Route>  */}
+             {/* </Switch> */}
         </>
       );
     // } else {
