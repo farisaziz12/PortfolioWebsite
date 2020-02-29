@@ -24,7 +24,7 @@ export default class WODSHARE extends Component {
                 onClose={() => this.toggleShow(false)}
                 closeOnOverlay={true}>
           <h1>WODSHARE</h1>
-          <p>
+          <p className='paragraph-text'>
           WODSHARE is a web application aimed around solving the the current standard (google/excel sheets) that personal trainers use for training athletes online or in a gym setting. It allows coaches to monitor athlete’s progress, assign workout programs and easily manage working with several clients.
           </p>
           <button class="gradient-multiline-button"><a href='https://wodshare.netlify.com'>Check out the live website</a></button>

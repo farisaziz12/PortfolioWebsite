@@ -24,7 +24,7 @@ export default class DIGIDAVE extends Component {
                 onClose={() => this.toggleShow(false)}
                 closeOnOverlay={true}>
           <h1>DigiDave</h1>
-          <p>
+          <p className='paragraph-text'>
           DigiDave is a friendly voice based digital assistant, which can play music, tell you a joke, the weather, do basic math calculations and more!
           </p>
           <button class="gradient-multiline-button"><a href='https://digidave.netlify.com'>Check out the live website</a></button>
