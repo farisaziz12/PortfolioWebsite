@@ -14,7 +14,7 @@ export default function Skills() {
                     <p>- CSS</p>
                     <p>- Vanilla Javascript</p>
                     <p>- React</p>
-                    <p>- Redux</p>
+                    {/* <p>- Redux</p> */}
                 </div>
             </div>
         </>
