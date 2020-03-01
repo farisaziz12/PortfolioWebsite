@@ -253,8 +253,6 @@ html{
 	display: inline-block;
 	position: absolute;
 	overflow: hidden;
-  top: 240px; 
-  left: 33% ;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -264,8 +262,6 @@ html{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-  top: -253px;
-  left: 12%;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -276,8 +272,6 @@ html{
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-  top: -180px;
-  left: -17%;
   width: 200px;
 	perspective:400px;
   background-color: transparent;
@@ -336,8 +330,6 @@ a{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    top: -30px; 
-    left: 10px;
     width: 200px;
     perspective:400px;
     background-color: transparent;
@@ -347,8 +339,6 @@ a{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    top: -2px;
-    left: 9px;
     width: 200px;
     perspective:400px;
     background-color: transparent;
@@ -359,8 +349,6 @@ a{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    top: -122px;
-    left: 10px;
     width: 200px;
     perspective:400px;
     background-color: transparent;
@@ -372,7 +360,7 @@ a{
 /* Socials Btn end */
 
 .contact-div {
-  margin-top: 40%;
+  margin-top: 5%;
 }
 
 
