@@ -12,7 +12,7 @@ export default function Header(props) {
                     <div> 
                         {/* <h3 style={props.type === "SE"? undefined :{backgroundColor: "#000"}} onClick={props.toggleContent} className='toggleBtn'>{props.type === "SE"? "Software Engineering" : "CrossFit" }</h3> */}
                     </div>
-                    <p><i class="i arrow down"></i></p>
+                    {/* <p><i class="i arrow down"></i></p> */}
             </div>
         </div>
     )
