@@ -404,3 +404,120 @@ a{
 }
 
 /* cf button end */
+
+/* arrow */
+.i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/* arrow end */
+
+
+/* cf backgrounds */
+
+.cf-background:nth-child(2) {
+    background-image:url(https://raw.github.com/mmoustafa/Chalkboard/master/img/bg.png);
+}
+
+
+
+.cf-background:nth-child(3) {
+  background-image: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+}
+
+
+.cf-background:nth-child(4) {
+  background-image: linear-gradient(to left, #b92b27, #1565c0);
+}
+
+.cf-background:nth-child(5) {
+  background-image: linear-gradient(to left, #ad5389, #3c1053);
+}
+
+
+.cf-background:nth-child(6) {
+  background-image: linear-gradient(to left, #a8c0ff, #3f2b96);
+}
+
+
+.cf-background:nth-child(7) {
+  background-color: #c20a85;
+}
+
+
+.cf-background:nth-child(8) {
+  background-color: #0ac285;
+}
+
+
+.cf-background:nth-child(9) {
+  background-color: #c20a0a;
+}
+
+
+.cf-background:nth-child(10) {
+  background-color: #000;
+}
+
+/* cf backgrounds end */
+
+/* about-me-title */
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint&display=swap');
+.about-me-title{
+  margin-top: 5%;
+  font-family: 'Finger Paint';
+  font-size: 30px;
+}
+
+@media (max-width: 500px) {
+  .about-me-title{
+    margin-top: 8%;
+  }
+}
+/* about-me-title end */
+
+
+/* bio */
+.bio {
+  margin-top: 4%;
+  margin-left: 4%;
+  max-width: 700px;
+}
+
+/* bio end */
+
+/* profile pic */
+  .profile-pic {
+    border-radius: 25px;
+    margin-top: -40%;
+    margin-left: 55%;
+    width: 300px;
+    height: 450px;
+  }
+
+  /* profile pic end */
+
+  @media (max-width: 1225px) {
+    .bio {
+      text-align: center;
+      margin-left: 4%;
+      max-width: 700px;
+    }
+    .profile-pic {
+      border-radius: 25px;  
+      width: 300px;
+      height: 450px;
+    }
+  
+  }
+    
+/* bio grid */
+
+
+/* bio grid end */

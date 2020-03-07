@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header';
-import SEBody from './Components/SEBody';
+import SEBody from './SEComponents/SEBody';
 import { Router, Route, Link, Switch } from 'react-router-dom'
-import CFBody from './Components/CFBody';
+import CFBody from './CFComponents/CFBody';
+import Header from './MainComponents/Header';
 
 
 class App extends React.Component{
