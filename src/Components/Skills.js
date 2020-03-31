@@ -17,6 +17,7 @@ export default function Skills() {
                     <p>- Node.js</p>
                     <p>- Firebase</p>
                     <p>- JSON</p>
+            
                 </div>
             </div>
         </>

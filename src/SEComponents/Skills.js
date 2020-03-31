@@ -13,8 +13,10 @@ export default function Skills() {
                     <p>- HTML</p>
                     <p>- CSS</p>
                     <p>- Vanilla Javascript</p>
-                    <p>- React</p>
-                    {/* <p>- Redux</p> */}
+                    <p>- React.js</p>
+                    <p>- Node.js</p>
+                    <p>- Firebase</p>
+                    <p>- JSON</p>
                 </div>
             </div>
         </>
