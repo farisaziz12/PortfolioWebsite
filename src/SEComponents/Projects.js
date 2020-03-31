@@ -3,7 +3,7 @@ import './Projects.css'
 import WODSHARE from './ProjectComponents/WODSHARE'
 import DIGIDAVE from './ProjectComponents/DIGIDAVE';
 import SELLO from './ProjectComponents/SELLO';
-import NUTRITRACKER from './ProjectComponents/NUTRITRACKER';
+import CORTRACK from './ProjectComponents/CORTRACK';
 
 
 class Projects extends Component {
@@ -16,7 +16,7 @@ class Projects extends Component {
                 <WODSHARE/>
                 <DIGIDAVE/>
                 <SELLO/>
-                <NUTRITRACKER/>
+                <CORTRACK/>
             </div>
         </div>
         );
@@ -24,19 +24,3 @@ class Projects extends Component {
 }
 
 export default Projects;
-            //     <Grid columns={4} divided>
-            //         <Grid.Row>
-            //         <Grid.Column>
-            //             <h3>WODSHARE</h3>
-            //         </Grid.Column>
-            //         <Grid.Column>
-            //             <h3>DigiDave</h3>
-            //         </Grid.Column>
-            //         <Grid.Column>
-            //             <h3>Sello</h3>
-            //         </Grid.Column>
-            //         <Grid.Column>
-            //             <h3>Nutri-Tracker</h3>
-            //         </Grid.Column>
-            //         </Grid.Row>
-            // </Grid>
