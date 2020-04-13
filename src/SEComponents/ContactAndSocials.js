@@ -23,7 +23,7 @@ export default function ContactAndSocials() {
                                 </Grid.Column>
                                 <Grid.Column>
                                 <button className="button">
-                                    <a href={"https://www.linkedin.com/in/faris-aziz-9a2a1499"}> 
+                                    <a href={"https://www.linkedin.com/in/farisaziz12"}> 
                                         <span className="respect" data-title="Me!">LinkedIn</span>
                                     </a>
                                 </button> 
